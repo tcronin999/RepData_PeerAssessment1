@@ -20,7 +20,7 @@ knitr::opts_chunk$set(echo = TRUE, warning = FALSE, fig.width = 10, fig.height =
 activity <- read.csv("activity.csv")
 # check the data
 head(activity)
-# change date to calss factor to class Date
+# change date to class Date
 activity$date <- as.Date(activity$date, format = "%Y-%m-%d")
 ```
 
